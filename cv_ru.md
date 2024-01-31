@@ -1,4 +1,4 @@
-# CV
+# CV ༼ つ ◕_◕ ༽つ Жданов Александр
 
 **Интересующий Вас стек лучше искать через поиск CTRL+F. Много букв.**
 
@@ -27,12 +27,18 @@ Blockchain programmer trainee
 - выполнение смежных работ на разных позициях
 	- (тестирование, аналитика, ИИ-разработка)
 
+## Достижения
+Организовывал и обучал студентов в команды на хакатоны. Выигрывали призовые места и номинации.
+- https://www.kubsu.ru/ru/node/36094
+- https://vk.com/public210995492?w=wall-210995492_162
+- https://vk.com/im?peers=c122_c87&w=wall-137765556_10005
+
 # Контакты
 
 - 📱 [Telegram](https://t.me/lagerf3u3r)
 - 👩‍💻 [Github](https://github.com/xLagerFeuer)
 
-## ༼ つ ◕_◕ ༽つ Жданов Александр
+# Обо мне
 
 21 age y.o., на текущий момент студент 4 курса КубГУ.
 
@@ -58,6 +64,7 @@ Intermidient English
 	- применял Pytorch, keras для RNNs
 	- экспериментировал с сервисами по GANs, Diffusion models
 	- применяю AI в решении рутинных задач
+	- грантовая работа по разработке научного ассистента
 - Data Science
 	- Python fair middle:
 		- numpy, pandas, matplotlib, sklearn, jupyter, seaborn
@@ -77,7 +84,7 @@ Intermidient English
 
 ## Желаемые в изучении направления
 
-- DevOPS/MLOps
+- DevOps/MLOps
 - HighLoad
 - Deep-in network programming
 
@@ -94,7 +101,7 @@ Intermidient English
 На текущий момент в рамках IT знаю и пользовался:
 
 - многими ЯПами: C++, C# .NET, Java, Javascript, Typescript, etc.
-- backend-фреймворками Django, FastAPI
+- backend-фреймворками Django, Flask, FastAPI
 - функциональным программированием в следующих языках: F#, Ruby, Python
 - логическим программированием: Prolog
 - многими средами: LibreOffice, MicrosoftOffice, VS / Code, vim, etc.

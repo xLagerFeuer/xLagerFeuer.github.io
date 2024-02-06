@@ -29,9 +29,9 @@ Blockchain programmer trainee
 
 ## Достижения
 Организовывал и обучал студентов в команды на хакатоны. Выигрывали призовые места и номинации.
-- https://www.kubsu.ru/ru/node/36094
-- https://vk.com/public210995492?w=wall-210995492_162
-- https://vk.com/im?peers=c122_c87&w=wall-137765556_10005
+- Research.Space вошла в состав финалистов, заняв 4 место https://www.kubsu.ru/ru/node/36094
+- второе место команда КубГУ «Research.Space» https://vk.com/wall-210995492_162
+- команда «Research.Space» отмечены лучшими в локальных номинациях https://vk.com/wall-137765556_10005
 
 # Контакты
 

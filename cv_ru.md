@@ -169,7 +169,7 @@ candidate* — желание освоить стек до определенн�
 
 # 💖 Избранные научные статьи
 
-- ## [Blockchain Large Language Models - BlockGPT](https://rdi.berkeley.edu/blockchain-llm/)
-- ## [Evading Web Application Firewalls with Reinforcement Learning](https://openreview.net/pdf?id=m5AntlhJ7Z5)
-- ## [Seven Failure Points When Engineering a Retrieval Augmented Generation System](https://kolodezev.ru/rag-failure-poins.html)
-- ## [Rethinking LLM and Linguistic Steganalysis: An Efficient Detection of Strongly Concealed Stego](https://arxiv.org/abs/2406.04218)
+- ### [Blockchain Large Language Models - BlockGPT](https://rdi.berkeley.edu/blockchain-llm/)
+- ### [Evading Web Application Firewalls with Reinforcement Learning](https://openreview.net/pdf?id=m5AntlhJ7Z5)
+- ### [Seven Failure Points When Engineering a Retrieval Augmented Generation System](https://kolodezev.ru/rag-failure-poins.html)
+- ### [Rethinking LLM and Linguistic Steganalysis: An Efficient Detection of Strongly Concealed Stego](https://arxiv.org/abs/2406.04218)

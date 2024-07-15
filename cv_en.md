@@ -142,7 +142,7 @@ In addition to training, he participated in DevOps and system design development
 
 in present day is considered completed.
 
-## 🔐 Closed projects
+## 🔐 Private projects
 I don’t publish the contents of projects, because they have a commercial interest.
 However, I can tell you about the general issues and an excerpt of the content in personal communication.
 

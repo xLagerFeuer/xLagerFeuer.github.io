@@ -2,7 +2,7 @@
 **It is better to search for the tech stack you are interested in using the search CTRL+F. Page contains many letters.**
 **2024-07-08**
 
-[:ru: to Russia](/cv_ru.md)
+[:ru: to Russia](/)
 
 # 🏢 Work experience (3 years)
 Since the age of 17, I have been actively developing and supporting code for existing projects, as well as freelancing among friends. Direct commercial experience is listed below.

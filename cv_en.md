@@ -2,7 +2,7 @@
 
 **It is better to search through CTRL+F. Page contains many letters.**
 
-**YYYY-MM-DD: 2024-08-07**
+**last update YYYY-MM-DD: 2024-09-04**
 
 [:ru: to Russia](/)
 

@@ -1,47 +1,18 @@
 # CV ༼ つ ◕_◕ ༽つ Zhdanov Alexander
 
-**It is better to search for the tech stack you are interested in using the search CTRL+F. Page contains many letters.**
+**It is better to search through CTRL+F. Page contains many letters.**
 
 **YYYY-MM-DD: 2024-08-07**
 
 [:ru: to Russia](/)
 
-# 🏢 Work experience (3 years)
+# 🧑 About me
 
-Since the age of 17, I have been actively developing and supporting code for existing projects, as well as freelancing among friends. Direct commercial experience is listed below.
+22 age y.o., currently successfully graduated from KubSU.
 
-## 🔖 K-lab laboratory May 2021 - current
+I have a fairly large circle of connections with specialists in IT (and not only) on the Internet and in real life: from network programmers to roboticists.
 
-Laboratory of Robotics and Mechatronics, LRaM (ЛРИМ)
-
-- work with grants for LLM, ML, etc.
-  - digital assistant in philosophy
-  - formation of a RAG architecture with local LLM
-  - formation of a system design for communication between the client and the language model
-  - testing the experience of scientific articles in foreign sources for the purpose of their further modification
-- outstaffing to customer companies in the industrial sector
-- organizing the university infrastructure and laboratory to meet the needs of students
-  - setting up the LRaM local network for more convenient interaction between the organization and students
-  - development of controlled allocation of resources to virtual machines for students
-- organizing students into hackathon teams and preparing them
-  - see below in the "Achievements" section
-
-## 🔐 Smart-Soft September 2023 - current
-
-Part-time Python developer
-
-- development of corporate code in Python
-- performing related work in different positions
-  - (testing, analytics, ML development)
-
-## 🕸 Metarea April 2022 - June 2022
-
-Trainee Blockchain programmer
-
-- work in the language Solidity
-- development of smart contracts in accordance with ERC
-- knowledge of the design of decentralized applications
-
+Intermediate English
 
 # 🏆 Achievements
 
@@ -50,7 +21,7 @@ Organized and trained students in teams for hackathons. Won prizes and nominatio
 - [05/17/2022 PJSC NK Rosneft, Hackathon of the country's universities. “Research.Space” was included in the finalists, taking 4th place](https://www.kubsu.ru/ru/node/36094)
 - [06/27/2023 Aquarium Research Center “Funnel of Innovative Startups”. Second place team of KubSU “Research.Space”](https://vk.com/wall-210995492_162)
 - [11/03/2023 PJSC NK Rosneft, Hackathon of the country's universities. The Research.Space team was awarded the best in local nominations](https://vk.com/wall-137765556_10005)
-- [04/09/2024 Aquarium Research Center “Funnel of Innovative Startups”. Second place team of KubSU “Research.Space”](https://vk.com/wall-210995492_335)
+- [04/09/2024 Aquarium Research Center “Funnel of Innovative Startups”. Third place team of KubSU “Research.Space”](https://vk.com/wall-210995492_335)
 - [08/02/2024 Aquarium Research Center “Funnel of Innovative Startups”. First place team of KubSU “Research.Space”](https://admkrai.krasnodar.ru/content/1131/show/755488/)
 
 We went to other hackathons/events many times with different personnel. There will definitely be a dozen participations.
@@ -62,15 +33,6 @@ We also carried out orders from companies during cooperation during and after th
 - 📱 [Telegram](https://t.me/lagerf3u3r)
 - 👩‍💻 [Github](https://github.com/xLagerFeuer)
 
-# 🧑 About me
-
-22 age y.o., currently successfully graduated from KubSU.
-
-I have a fairly large circle of connections with specialists in IT (and not only) on the Internet and in real life: from network programmers to roboticists.
-
-I wish to apply knowledge from scientific disciplines in applied programming, I plan to organize a student environment of extracurricular activities at my university with my own franchise.
-
-Intermediate English
 
 ## 👷‍♂️ Work directions
 

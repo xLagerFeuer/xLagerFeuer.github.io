@@ -34,7 +34,7 @@ We also carried out orders from companies during cooperation during and after th
 - 👩‍💻 [Github](https://github.com/xLagerFeuer)
 
 
-## 👷‍♂️ Work directions
+# 👷‍♂️ Work directions
 
 Disclaimer: Not all areas I have worked with are included here. If you have any questions, please write.
 

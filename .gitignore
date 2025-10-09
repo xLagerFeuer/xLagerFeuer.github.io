@@ -1,0 +1,5 @@
+tool/
+build/
+other/
+
+.local/

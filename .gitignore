@@ -1,5 +1,3 @@
-tool/
-build/
-other/
-
-.local/
+.idea/
+.DS_Store
+Thumbs.db

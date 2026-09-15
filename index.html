@@ -71,7 +71,7 @@
     }
     main { position: relative; z-index: 1; }
     .side-garden {
-      position: absolute;
+      position: fixed;
       top: 50%;
       width: clamp(12rem, 23vw, 21rem);
       aspect-ratio: 1;
@@ -79,8 +79,8 @@
       pointer-events: none;
       opacity: .8;
     }
-    .side-garden--left { right: calc(100% + 1.5rem); }
-    .side-garden--right { left: calc(100% + 1.5rem); }
+    .side-garden--left { left: 0; }
+    .side-garden--right { right: 0; }
     .side-garden svg {
       display: block;
       width: 100%;
@@ -92,8 +92,6 @@
     @keyframes garden-orbit { to { transform: rotate(360deg); } }
     @media (max-width: 75rem) and (min-width: 56.01rem) {
       .side-garden { width: clamp(8rem, 13vw, 11rem); opacity: .65; }
-      .side-garden--left { right: calc(100% + .25rem); }
-      .side-garden--right { left: calc(100% + .25rem); }
     }
     @media (max-width: 56rem) and (min-width: 40.01rem) {
       .side-garden { position: fixed; top: 50%; width: 11rem; opacity: .22; }

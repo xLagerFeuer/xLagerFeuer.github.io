@@ -64,9 +64,97 @@
       body { max-width: none; padding: 0; }
       a { text-decoration: none; }
     }
+
+    body {
+      position: relative;
+      isolation: isolate;
+    }
+    main { position: relative; z-index: 1; }
+    .side-garden {
+      position: absolute;
+      top: 50%;
+      width: clamp(12rem, 23vw, 21rem);
+      aspect-ratio: 1;
+      transform: translateY(-50%);
+      pointer-events: none;
+      opacity: .8;
+    }
+    .side-garden--left { right: calc(100% + 1.5rem); }
+    .side-garden--right { left: calc(100% + 1.5rem); }
+    .side-garden svg {
+      display: block;
+      width: 100%;
+      height: 100%;
+      shape-rendering: crispEdges;
+      animation: garden-orbit 48s linear infinite;
+    }
+    .side-garden--right svg { animation-direction: reverse; animation-duration: 56s; }
+    @keyframes garden-orbit { to { transform: rotate(360deg); } }
+    @media (max-width: 75rem) and (min-width: 56.01rem) {
+      .side-garden { width: clamp(8rem, 13vw, 11rem); opacity: .65; }
+      .side-garden--left { right: calc(100% + .25rem); }
+      .side-garden--right { left: calc(100% + .25rem); }
+    }
+    @media (max-width: 56rem) and (min-width: 40.01rem) {
+      .side-garden { position: fixed; top: 50%; width: 11rem; opacity: .22; }
+      .side-garden--left { right: auto; left: -7.5rem; }
+      .side-garden--right { left: auto; right: -7.5rem; }
+    }
+    @media (max-width: 40rem) {
+      .side-garden { position: fixed; top: 50%; width: 11rem; opacity: .22; }
+      .side-garden--left { right: auto; left: -8.5rem; }
+      .side-garden--right { left: auto; right: -8.5rem; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .side-garden svg { animation: none; }
+    }
+    @media print { .side-garden { display: none; } }
   </style>
 </head>
 <body>
+  <svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" aria-hidden="true" focusable="false" style="position:absolute;overflow:hidden">
+    <defs>
+      <g id="garden-rose">
+        <path fill="#a5abc9" d="M-3-3h6v-4h4v-10H3v-4H-3v4H-7v10h4Z"/>
+        <path fill="#a5abc9" transform="rotate(60)" d="M-3-3h6v-4h4v-10H3v-4H-3v4H-7v10h4Z"/>
+        <path fill="#a5abc9" transform="rotate(120)" d="M-3-3h6v-4h4v-10H3v-4H-3v4H-7v10h4Z"/>
+        <path fill="#a5abc9" transform="rotate(180)" d="M-3-3h6v-4h4v-10H3v-4H-3v4H-7v10h4Z"/>
+        <path fill="#a5abc9" transform="rotate(240)" d="M-3-3h6v-4h4v-10H3v-4H-3v4H-7v10h4Z"/>
+        <path fill="#a5abc9" transform="rotate(300)" d="M-3-3h6v-4h4v-10H3v-4H-3v4H-7v10h4Z"/>
+        <path fill="#9bafd2" d="M-3-6h6v3h3v6H3v3H-3V3H-6V-3h3Z"/>
+        <rect x="-2" y="-2" width="4" height="4" fill="#f4f1e8"/>
+      </g>
+      <path id="garden-leaf" fill="#a8ada4" d="M0 0h6v-4h8v-4h8v-8h4v-4H14v4H8v8H2v4H0Z"/>
+      <symbol id="garden-orbit-art" viewBox="0 0 320 320">
+        <g fill="none" stroke="#a8ada4" stroke-width="3" stroke-linecap="square" stroke-linejoin="round">
+          <path d="M160 288C91 289 43 239 43 166C43 95 96 43 166 43C237 43 283 96 283 165C283 235 234 287 160 288Z"/>
+          <path d="M160 274C100 274 58 228 58 165C58 105 102 58 165 58C225 58 268 103 268 166C268 224 226 271 166 272"/>
+          <path d="M160 288C129 257 104 246 85 246M43 166C75 150 94 131 95 88M166 43C177 77 198 96 237 96M283 165C249 178 230 203 231 247M166 272C154 242 136 226 113 220"/>
+          <path d="M85 246C72 245 66 234 70 222C74 210 87 207 97 214C104 220 103 230 96 234C88 238 82 232 85 226"/>
+          <path d="M95 88C90 75 98 65 110 65C123 65 129 75 124 85C120 94 108 94 104 88C101 83 105 78 110 80"/>
+          <path d="M237 96C250 91 259 99 258 110C257 122 246 128 237 124C228 120 228 109 235 105C241 102 246 108 243 113"/>
+          <path d="M231 247C238 260 228 269 216 267C204 265 200 253 206 246C213 238 223 241 225 248C226 254 218 257 215 252"/>
+          <path d="M113 220C104 215 102 203 109 196C116 189 127 192 131 199C135 207 128 214 121 212"/>
+        </g>
+        <use href="#garden-leaf" transform="translate(126 285) rotate(-35) scale(.8)"/>
+        <use href="#garden-leaf" transform="translate(50 183) rotate(-115) scale(.8)"/>
+        <use href="#garden-leaf" transform="translate(78 121) rotate(-80) scale(.75)"/>
+        <use href="#garden-leaf" transform="translate(152 47) rotate(40) scale(.8)"/>
+        <use href="#garden-leaf" transform="translate(213 65) rotate(75) scale(.7)"/>
+        <use href="#garden-leaf" transform="translate(277 188) rotate(140) scale(.8)"/>
+        <use href="#garden-leaf" transform="translate(246 250) rotate(175) scale(.8)"/>
+        <use href="#garden-leaf" transform="translate(149 267) rotate(-50) scale(.75)"/>
+        <use href="#garden-rose" transform="translate(85 246) scale(1.15)"/>
+        <use href="#garden-rose" transform="translate(95 88) scale(1.05)"/>
+        <use href="#garden-rose" transform="translate(237 96) scale(1.1)"/>
+        <use href="#garden-rose" transform="translate(231 247) scale(1.15)"/>
+        <use href="#garden-rose" transform="translate(113 220) scale(.7)"/>
+      </symbol>
+    </defs>
+  </svg>
+  <div class="side-garden side-garden--left" aria-hidden="true"><svg viewBox="0 0 320 320" focusable="false"><use href="#garden-orbit-art"/></svg></div>
+  <div class="side-garden side-garden--right" aria-hidden="true"><svg viewBox="0 0 320 320" focusable="false"><use href="#garden-orbit-art"/></svg></div>
+
   <main>
   <p class="document-meta"><time datetime="2026-09-08">2026-09-08</time> readme.html</p>
 
